@@ -1,5 +1,13 @@
 div.actions {
     display: flex;
     width: 25%;
-    justify-content: space-between;
+    justify-content: flex-end;
+  }
+  .exampleText {
+    writing-mode: vertical-rl;
+    background-color: yellow;
+    inline-size: 110px;
+  }
+  h1 {
+    color: green;
   }
