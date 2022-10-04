@@ -19,18 +19,23 @@ h1 {
 left: 80px;
 position: absolute;
 }
-}
+
 .exampleText {
   writing-mode: vertical-rl;
-  background-color: yellow;
   inline-size: 110px;
+  margin: -5px;
+  top: 90px;
+  position: absolute;
 }
+
 .virnumm {
 margin: 80px;
 }
 
 .sich {
   margin: 80px;
+  position: absolute;
+  top: 50px;
 }
 button[type="submit"] {
   text-indent: -999px;
@@ -53,7 +58,7 @@ form.example button {
   color: white;
   font-size: 17px;
   border: 1px solid grey;
-  border-left: none; 
+  border-left: none;
   cursor: pointer;
 }
 </style>
@@ -63,7 +68,7 @@ form.example button {
  <form class="" action="index.html" method="post">
 
  </form>
- <p class="exampleText">SICHT----</p>
+
  <div class="annonce">
 
 
@@ -75,6 +80,7 @@ form.example button {
    <button type='submit'><i class='fa fa-search'></i></button> <input type='date' name='' value='' placeholder='14.09.2022'>
    <br>
    <a href='' class='sich'>Erweidert sich</a>
+    <p class='exampleText'>SICHT----</p>
   </form>
   ";
   ?>
