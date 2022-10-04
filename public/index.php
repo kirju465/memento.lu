@@ -30,6 +30,22 @@
   left: 80px;
   top: 750px;
 }
+
+.kaerz {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1210px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.thirdtabelle {
+  position: absolute;
+  left: 80px;
+  top: 1190px;
+}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
@@ -57,7 +73,8 @@
   echo "<p class='new'>NEISTEN</p>";
   echo "<p class='newannonce'>ANNONCE______</p>";
   echo "<p class='verstuerwe'>VERSTUERWE</p>";
-    echo "<p class='perso'>PERSÉINLECHKEETEN_____</p>";
+  echo "<p class='perso'>PERSÉINLECHKEETEN_____</p>";
+  echo "<p class='kaerz'>KÄERZEN_____</p>";
   ?>
  </div>
 <hr>
@@ -76,6 +93,12 @@
      <td><img src="img/michail.png" id="pictures"></td>
       <td><img src="img/olivia.png" id="pictures"></td>
        <td><img src="img/dusty.png" id="pictures"></td>
+  </tr>
+</table>
+
+<table class="thirdtabelle">
+  <tr>
+    <td><img src="img/welter.png" id="pictures"></td>
   </tr>
 </table>
   </body>
