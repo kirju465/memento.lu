@@ -31,6 +31,8 @@
 
   echo "<p class='new'>NEISTEN</p>";
   echo "<p class='newannonce'>ANNONCE______</p>";
+  echo "<p class='verstuerwe'>VERSTUERWE</p>";
+    echo "<p class='perso'>PERSÉINLECHKEETEN</p>";
   ?>
  </div>
 <hr>
