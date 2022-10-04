@@ -18,6 +18,7 @@ h1 {
   color: white;
 left: 80px;
 position: absolute;
+font-family: sans-serif;
 }
 
 .exampleText {
@@ -26,6 +27,7 @@ position: absolute;
   margin: -5px;
   top: 90px;
   position: absolute;
+  font-family: sans-serif;
 }
 
 .virnumm {
@@ -36,6 +38,7 @@ margin: 80px;
   margin: 80px;
   position: absolute;
   top: 50px;
+  font-family: sans-serif;
 }
 button[type="submit"] {
   text-indent: -999px;
@@ -61,6 +64,12 @@ form.example button {
   border-left: none;
   cursor: pointer;
 }
+
+.doudesannonce {
+  position: absolute;
+  left: 590px;
+}
+
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
@@ -81,6 +90,7 @@ form.example button {
    <br>
    <a href='' class='sich'>Erweidert sich</a>
     <p class='exampleText'>SICHT----</p>
+    <button type='button' name='button' class='doudesannonce'>Doudesannonce publizéiren</button>
   </form>
   ";
   ?>
