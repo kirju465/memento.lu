@@ -2,102 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-<link rel="stylesheet" href="../resources/css/app.css" type="text/css">
+<link rel="stylesheet" href="css/app.css" type="text/css">
     <title></title>
   </head>
 
-<style media="screen">
-div.annonce{
- padding: 15px;
- background: #6495ED;
- background-clip: border-box;
- height: 250px;
-}
-
-h1 {
-  color: white;
-left: 80px;
-position: absolute;
-font-family: sans-serif;
-}
-
-.exampleText {
-  color: white;
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 90px;
-  position: absolute;
-  font-family: sans-serif;
-}
-
-.virnumm {
-margin: 80px;
-}
-
-.sich {
-  margin: 80px;
-  position: absolute;
-  top: 50px;
-
-}
-button[type="submit"] {
-  text-indent: -999px;
-  overflow: hidden;
-  width: 40px;
-  padding: 0;
-  margin: 0;
-  border: 1px solid transparent;
-  border-radius: inherit;
-  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-}
-
-.doudesannonce {
-  position: absolute;
-  left: 590px;
-}
-
-.new {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 320px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-.newannonce {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 400px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-.tabelle {
-  position: absolute;
-  left: 80px;
-  top: 310px;
-}
-
-</style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
 
@@ -125,12 +33,15 @@ form.example button {
   echo "<p class='newannonce'>ANNONCE______</p>";
   ?>
  </div>
-
- <table border="3" class="tabelle">
+<hr>
+ <table class="tabelle">
    <tr>
-     <td></td>
+     <td><img src="img/marie-elise.png" id="pictures"></td>
+      <td><img src="img/anna-maria.png" id="pictures"></td>
+       <td><img src="img/gerty-heinen.png" id="pictures"></td>
+        <td><img src="img/alexandre-schlesser.png" id="pictures"></td>
    </tr>
  </table>
-<img src="../resources/img/marie-elise.png" alt="">
+
   </body>
 </html>
