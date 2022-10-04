@@ -22,7 +22,8 @@ font-family: sans-serif;
 }
 
 .exampleText {
-  writing-mode: vertical-rl;
+  color: white;
+  writing-mode: vertical-lr;
   inline-size: 110px;
   margin: -5px;
   top: 90px;
@@ -38,7 +39,7 @@ margin: 80px;
   margin: 80px;
   position: absolute;
   top: 50px;
-  font-family: sans-serif;
+
 }
 button[type="submit"] {
   text-indent: -999px;
@@ -70,6 +71,32 @@ form.example button {
   left: 590px;
 }
 
+.new {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 320px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.newannonce {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 400px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.tabelle {
+  position: absolute;
+  left: 80px;
+  top: 310px;
+}
+
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
@@ -89,11 +116,21 @@ form.example button {
    <button type='submit'><i class='fa fa-search'></i></button> <input type='date' name='' value='' placeholder='14.09.2022'>
    <br>
    <a href='' class='sich'>Erweidert sich</a>
-    <p class='exampleText'>SICHT----</p>
+    <p class='exampleText'>SICHT________</p>
     <button type='button' name='button' class='doudesannonce'>Doudesannonce publizéiren</button>
   </form>
   ";
+
+  echo "<p class='new'>NEISTEN</p>";
+  echo "<p class='newannonce'>ANNONCE______</p>";
   ?>
  </div>
+
+ <table border="3" class="tabelle">
+   <tr>
+     <td></td>
+   </tr>
+ </table>
+<img src="../resources/img/marie-elise.png" alt="">
   </body>
 </html>
