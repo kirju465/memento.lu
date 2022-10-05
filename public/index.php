@@ -46,6 +46,34 @@
   left: 80px;
   top: 1190px;
 }
+
+.premium {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1210px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 380px;
+}
+
+.partners {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1300px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 380px;
+}
+
+.fourtabelle {
+  position: absolute;
+  left: 420px;
+  top: 1190px;
+}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
@@ -75,6 +103,8 @@
   echo "<p class='verstuerwe'>VERSTUERWE</p>";
   echo "<p class='perso'>PERSÉINLECHKEETEN_____</p>";
   echo "<p class='kaerz'>KÄERZEN_____</p>";
+  echo "<p class='premium'>PREMIUM</p>";
+  echo "<p class='partners'>PARTNERS_____</p>";
   ?>
  </div>
 <hr>
@@ -99,6 +129,12 @@
 <table class="thirdtabelle">
   <tr>
     <td><img src="img/welter.png" id="pictures"></td>
+  </tr>
+</table>
+
+<table class="fourtabelle">
+  <tr>
+    <td><img src="img/partners.png" id="pictures"></td>
   </tr>
 </table>
   </body>
