@@ -1,6 +1,6 @@
 div.annonce{
  padding: 15px;
- background: #6495ED;
+ background: #008CBA;
  background-clip: border-box;
  height: 250px;
 }
@@ -55,11 +55,6 @@ form.example button {
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;
-}
-
-.doudesannonce {
-  position: absolute;
-  left: 590px;
 }
 
 .new {

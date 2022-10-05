@@ -134,6 +134,20 @@
   left: 780px;
   top: 1190px;
 }
+
+.doudesannonce {
+  position: absolute;
+  left: 590px;
+  background-color: #6495ED;
+  padding: 14px 40px;
+
+}
+div.annonce{
+ padding: 15px;
+ background: #008CBA;
+ background-clip: border-box;
+ height: 250px;
+}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
