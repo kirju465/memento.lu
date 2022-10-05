@@ -74,6 +74,66 @@
   left: 420px;
   top: 1190px;
 }
+
+.wat {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1220px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+
+.maachen {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1257px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+
+.bei {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1343px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+
+.engem {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1373px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+
+.doudesfall {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1440px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+.fifthtabelle {
+  position: absolute;
+  left: 780px;
+  top: 1190px;
+}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
@@ -105,6 +165,11 @@
   echo "<p class='kaerz'>KÄERZEN_____</p>";
   echo "<p class='premium'>PREMIUM</p>";
   echo "<p class='partners'>PARTNERS_____</p>";
+  echo "<p class='wat'>WAT</p>";
+  echo "<p class='maachen'>MAACHEN</p>";
+  echo "<p class='bei'>BEI</p>";
+  echo "<p class='engem'>ENGEM</p>";
+  echo "<p class='doudesfall'>DOUDESFALL__</p>";
   ?>
  </div>
 <hr>
@@ -132,9 +197,22 @@
   </tr>
 </table>
 
+
 <table class="fourtabelle">
   <tr>
     <td><img src="img/partners.png" id="pictures"></td>
+  </tr>
+</table>
+
+<table class="fifthtabelle">
+  <tr>
+    <td><img src="img/doudeschain.png" id="pictures"></td>
+  </tr>
+  <tr>
+    <td><img src="img/verpflichtung.png" id="pictures"></td>
+  </tr>
+  <tr>
+    <td><img src="img/testament.png" id="pictures"></td>
   </tr>
 </table>
   </body>
