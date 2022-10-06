@@ -3,151 +3,11 @@
   <head>
     <meta charset="utf-8">
 <link rel="stylesheet" href="css/app.css" type="text/css">
+
     <title></title>
   </head>
 <style media="screen">
-.verstuerwe {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 770px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-}
 
-.perso {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 900px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-.populartabelle {
-  position: absolute;
-  left: 80px;
-  top: 750px;
-}
-
-.kaerz {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 1210px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-.thirdtabelle {
-  position: absolute;
-  left: 80px;
-  top: 1190px;
-}
-
-.premium {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 1210px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-  left: 380px;
-}
-
-.partners {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 1300px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-  left: 380px;
-}
-
-.fourtabelle {
-  position: absolute;
-  left: 420px;
-  top: 1190px;
-}
-
-.wat {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 1220px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-  left: 740px;
-}
-
-.maachen {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 1257px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-  left: 740px;
-}
-
-.bei {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 1343px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-  left: 740px;
-}
-
-.engem {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 1373px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-  left: 740px;
-}
-
-.doudesfall {
-  writing-mode: vertical-lr;
-  inline-size: 110px;
-  margin: -5px;
-  top: 1440px;
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: bold;
-  left: 740px;
-}
-.fifthtabelle {
-  position: absolute;
-  left: 780px;
-  top: 1190px;
-}
-
-.doudesannonce {
-  position: absolute;
-  left: 590px;
-  background-color: #6495ED;
-  padding: 14px 40px;
-
-}
-div.annonce{
- padding: 15px;
- background: #008CBA;
- background-clip: border-box;
- height: 250px;
-}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
@@ -161,6 +21,22 @@ div.annonce{
 
  <h1>SICHT AN 9 165 DOUDESANNONCEN</h1>
   <?php
+  include 'inc/db_params.inc.php';
+  include 'inc/contents/details.inc.php';
+  include("inc/ALLOWED_PAGES.inc.php");
+
+  if(isset($_GET["view"])){
+        if(in_array($_GET["view"],ALLOWED_PAGES) && file_exists("inc/contents/{$_GET["view"]}.inc.php")){
+          $view = $_GET["view"];
+        }
+        else{
+          $view = "uebersicht";
+        }
+      }
+      else{
+        $view = "uebersicht";
+      }
+
   echo "
   <form class='' action='index.php' method='post'>
    <input type='text' class='virnumm' name='' value='' placeholder='Virnumm'> <input type='text' name='' value='' placeholder='Familljennumm'>

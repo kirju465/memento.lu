@@ -87,3 +87,148 @@ form.example button {
   left: 80px;
   top: 310px;
 }
+.sich {
+    color: white;
+}
+.verstuerwe {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 770px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.perso {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 900px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.populartabelle {
+  position: absolute;
+  left: 80px;
+  top: 750px;
+}
+
+.kaerz {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1210px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.thirdtabelle {
+  position: absolute;
+  left: 80px;
+  top: 1190px;
+}
+
+.premium {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1210px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 380px;
+}
+
+.partners {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1300px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 380px;
+}
+
+.fourtabelle {
+  position: absolute;
+  left: 420px;
+  top: 1190px;
+}
+
+.wat {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1220px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+
+.maachen {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1257px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+
+.bei {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1343px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+
+.engem {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1373px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+
+.doudesfall {
+  writing-mode: vertical-lr;
+  inline-size: 110px;
+  margin: -5px;
+  top: 1440px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  left: 740px;
+}
+.fifthtabelle {
+  position: absolute;
+  left: 780px;
+  top: 1190px;
+}
+
+.doudesannonce {
+  position: absolute;
+  left: 590px;
+  background-color: #6495ED;
+  padding: 14px 40px;
+
+}
+div.annonce{
+ padding: 15px;
+ background: #008CBA;
+ background-clip: border-box;
+ height: 250px;
+}
